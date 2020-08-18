@@ -69,6 +69,7 @@ for iter = 1:param.epoch
             Wp(sIndex,:,fIndex) = conj(w);
         end
     end
+    fprintf('%d epoch done \n', iter);
 end
 %--------------------------------------------------------------------------
 %% Correct scaling permutation, minimal distortion priciple
