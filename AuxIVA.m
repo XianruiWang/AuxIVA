@@ -24,6 +24,9 @@ function [demixedSig,W] = AuxIVA(mixedSig,param)
 %
 %   Contact:
 %           wangxianrui@mail.nwpu.edu.cn
+%  Reference:
+%           Stable and fast update rules for independent vector analysis
+%           based on auxiliary function technique
 %--------------------------------------------------------------------------
 %% STFT 
 win = 2*hanning(param.nfft,'periodic')/param.nfft;

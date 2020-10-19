@@ -25,6 +25,9 @@ function [demixedSig,Wp] = GCAV_IVA(mixedSig,param)
 %
 %   Contact:
 %           wangxianrui@mail.nwpu.edu.cn
+%   Reference:
+%           GEOMETRICALLY CONSTRAINED INDEPENDENT VECTOR 
+%           ANALYSIS FOR DIRECTIONAL SPEECH ENHANCEMENT
 %--------------------------------------------------------------------------
 %% STFT 
 win = 2*hanning(param.nfft,'periodic')/param.nfft;
